@@ -51,7 +51,8 @@ y_dest = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(global.leftKey) &amp;&amp; !global.moving &amp;&amp; place_free(x - 64, y - 32)) {
+            <string>
+if (keyboard_check(global.leftKey) &amp;&amp; !global.moving &amp;&amp; place_free(x - 64, y - 32)) {
     global.moving = true
     x_dest = x - 64
     y_dest = y - 32
