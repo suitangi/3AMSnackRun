@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = room_height - y + 1;
+            <string>depth = room_height - y + 32;
 event_inherited();
 </string>
           </argument>

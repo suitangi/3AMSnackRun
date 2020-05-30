@@ -12,6 +12,7 @@
     <sprite>sprites\spr_fridge</sprite>
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_colorPalette</sprite>
+    <sprite>sprites\spr_player</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +24,7 @@
     <object>objects\obj_door</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_levelObject</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
