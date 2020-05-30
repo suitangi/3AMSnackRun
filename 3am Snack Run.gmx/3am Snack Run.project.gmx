@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_isoTile</sprite>
+    <sprite>sprites\spr_glow</sprite>
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_sink</sprite>
     <sprite>sprites\spr_fridge</sprite>
@@ -14,6 +15,9 @@
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_colorPalette</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_dog</sprite>
+    <sprite>sprites\spr_dogLeft</sprite>
+    <sprite>sprites\sprite11</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +27,7 @@
     <object>objects\obj_sink</object>
     <object>objects\obj_block</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_dog</object>
     <object>objects\obj_door</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_levelObject</object>
