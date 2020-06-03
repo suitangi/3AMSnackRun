@@ -59,24 +59,28 @@ if (keyboard_check(global.leftKey) &amp;&amp; !global.moving &amp;&amp; place_fr
     x_dest = x - 64
     y_dest = y - 32
     y_prev = y;
+    obj_controller.awake += 2;
 }
 else if (keyboard_check(global.rightKey) &amp;&amp; !global.moving &amp;&amp; place_free(x + 64, y + 32)) {
     global.moving = true
     x_dest = x + 64
     y_dest = y + 32
     y_prev = y;
+    obj_controller.awake += 2;
 }
 else if (keyboard_check(global.upKey) &amp;&amp; !global.moving &amp;&amp; place_free(x + 64, y - 32)) {
     global.moving = true
     x_dest = x + 64
     y_dest = y - 32
     y_prev = y;
+    obj_controller.awake += 2;
 }
 else if (keyboard_check(global.downKey) &amp;&amp; !global.moving &amp;&amp; place_free(x - 64, y + 32)) {
     global.moving = true
     x_dest = x - 64
     y_dest = y + 32
     y_prev = y;
+    obj_controller.awake += 2;
 }
 
 if (global.moving) {
